@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ChaseB1985/speechrecog/issues"
   },
-  "homepage": "https://github.com/ChaseB1985/speechrecog#readme"
+  "homepage": "https://github.com/ChaseB1985/speechrecog#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3"
+  }
 }
