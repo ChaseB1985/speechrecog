@@ -1,0 +1,20 @@
+{
+  "name": "speechrecog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "start": "browser-sync start --directory --server --files \"*.css, *.html, *.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChaseB1985/speechrecog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChaseB1985/speechrecog/issues"
+  },
+  "homepage": "https://github.com/ChaseB1985/speechrecog#readme"
+}
