@@ -27,6 +27,11 @@ recognition.addEventListener('result', e => {
     .map(result => result.transcript)
     .join('')
     
+    p.textContent = transcript;
+    if(e.results[0].isFinal){
+        p = document.createElement('p');
+        words.appendChild(p);
+    }
     console.log(transcript);
     
 });
@@ -43,7 +48,7 @@ recognition.start();
     }
 
     body {
-      background:#ffc600;
+      background:#632fc4;
       font-family: 'helvetica neue';
       font-weight: 200;
       font-size: 20px;
